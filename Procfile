@@ -1,1 +1,1 @@
-worker; node bot.js asdasdasdasdasdadsa
+worker;,,,,, node bot.js 
