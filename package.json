@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "sart": "node bot.js"
-    }
+    },
     "dependencies": {
       "discord.js": "11.1.0",
       "request": "2.81.0"
