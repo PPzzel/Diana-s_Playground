@@ -8,6 +8,10 @@ console.log('I am ready!');
 client.on("message", message => {
   if(message.content == "ping"){
     message.reply("Pong");
+    
+client.on("message", message => {
+  if(message.content == "Diana, what time is it?"){
+    message.reply("6:50 pm");
   }
   });
   
