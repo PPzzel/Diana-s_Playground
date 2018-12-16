@@ -1,7 +1,7 @@
 {
   "name": "Test"
-  "description"; "Test",
-  "versions"; "0.0.0",
+  "description": "Test",
+  "versions": "0.0.0",
   "main": "bot.js",
   "scripts": {
     "sart": "node bot.js"
