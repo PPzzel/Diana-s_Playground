@@ -1,1 +1,2 @@
-
+$ touch ~/.gitignore
+$ git config --global core.excludesFile ~/bot.js
