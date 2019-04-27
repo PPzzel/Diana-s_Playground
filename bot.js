@@ -8,14 +8,7 @@ console.log('I am ready!');
 
 client.on("message", message => {
   if(message.content == "ping"){
-    message.reply("Pong");
-    
-  }
-  });
-
-client.on("message", message => {
-  if(message.content == "ding"){
-    message.reply("Pong");
+    message.reply("Pong"); 
     
   }
   });
