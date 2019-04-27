@@ -7,7 +7,7 @@ console.log('I am ready!');
 });
 
 client.on("message", message => {
-  if(message.content == "ping"){
+  if(message.content == "Bing"){
     message.reply("Pong"); 
     
   }
