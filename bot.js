@@ -10,10 +10,7 @@ client.on("message", message => {
   if(message.content == "Bing"){
     message.reply("Pong"); 
     
-  }
-if(message.content == "Blam!"){
-  message.reply("Dx");
-}
+  } 
   });
   
   client.login(process.env.B0T_T0KEN);
