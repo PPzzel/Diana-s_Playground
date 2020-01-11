@@ -11,6 +11,9 @@ client.on("message", message => {
     message.reply("Pong"); 
     
   }
+if(message.content == "Blam!"){
+  message.reply("Dx");
+}
   });
   
   client.login(process.env.B0T_T0KEN);
