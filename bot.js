@@ -1,4 +1,3 @@
-    
 const Discord = require("discord.js");
 const client = new Discord.Client;
 
@@ -7,10 +6,10 @@ console.log('I am ready!');
 });
 
 client.on("message", message => {
-  if(message.content == "Bing"){
-    message.reply("Pong"); 
+  if(message.content == "ping"){
+    message.reply("Pong");
     
-  } 
+  }
   });
   
   client.login(process.env.B0T_T0KEN);
